@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/odds", "dest": "/odds.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
